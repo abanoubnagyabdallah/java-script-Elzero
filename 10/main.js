@@ -1,6 +1,5 @@
 // **************** Assignment 1 **************
 console.log(" **************** Assignment 1 **************");
-
 let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
 let redArray = mix.filter((element) => isNaN(parseInt(element))).reduce((accumulate, current) => `${accumulate}${current}`)
 console.log(redArray);
@@ -20,5 +19,28 @@ console.log(filterString);
 // **************** Assignment 3 **************
 console.log(" **************** Assignment 3 **************");
 let myArray = ["E", "l", "z", ["e", "r"], "o"];
-console.log(myArray);
+console.log();
 // Elzero
+
+
+
+// **************** Assignment 4 **************
+console.log(" **************** Assignment 4 **************");
+let numsAndStrings = [1, 10, -10, -20, 5, "A", 3, "B", "C"];
+let ignoreChar = numsAndStrings.filter(element => !isNaN(parseInt(element))).map(element => -element);
+console.log(ignoreChar);
+// [-1, -10, 10, 20, -5, -3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
