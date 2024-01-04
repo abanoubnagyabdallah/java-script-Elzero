@@ -1,0 +1,28 @@
+form{
+    background-color: #ccc;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.results .box{
+    background-color: red;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+

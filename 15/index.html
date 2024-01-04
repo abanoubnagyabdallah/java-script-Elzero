@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #eee;
+      }
+      ul {
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #ddd;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 400px;
+      }
+      ul li {
+        width: 60px;
+        height: 60px;
+        border: 2px solid transparent;
+        opacity: 0.4;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      ul li:nth-child(1) {
+        background-color: red;
+      }
+      ul li:nth-child(2) {
+        background-color: green;
+      }
+      ul li:nth-child(3) {
+        background-color: blue;
+      }
+      ul li:nth-child(4) {
+        background-color: black;
+      }
+      ul li.active {
+        opacity: 1;
+      }
+      .experiment {
+        width: 600px;
+        height: 300px;
+        background-color: red;
+        margin: 20px auto;
+      }
+    </style>
+    <!--  -->
+    <link rel="stylesheet" href="style.css" />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cairo:wght@200;300;400&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Righteous&family=Roboto:ital,wght@0,500;0,700;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============== video 112 ============= -->
+    <!-- <ul>
+        <li class="active" data-color="red"></li>
+        <li data-color="green"></li>
+        <li data-color="blue"></li>
+        <li data-color="black"></li>
+    </ul>
+    <div class="experiment">
+    </div> -->
+
+    <!-- ============== video 113 ============= -->
+    <!-- <form action="">
+        <input type="text" class="my__name"><br>
+        <input type="text" class="my__name2"><br>
+    </form> -->
+
+    <!-- ============== assignment 1 ============= -->
+    <form action="">
+      <select name="selectOne" id="">
+        <option value="Open Sans, sans-serif">open</option>
+        <option value="Cairo, sans-serif">cairo</option>
+        <option value="Roboto, sans-serif">roboto</option>
+      </select>
+
+      <select name="selectTwo" id="">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+        <option value="white">white</option>
+        <option value="yellow">yellow</option>
+        <option value="black">black</option>
+      </select>
+
+      <select name="selectThree" id="">
+        <option value="15px">15px</option>
+        <option value="16px">16px</option>
+        <option value="17px">17px</option>
+        <option value="18px">18px</option>
+        <option value="19px">19px</option>
+        <option value="20px">20px</option>
+      </select>
+    </form>
+    <div class="my__div">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+      perferendis laudantium accusantium exercitationem possimus dolorem odio,
+      earum odit enim vitae eum optio velit illo expedita rerum? Omnis aperiam
+      excepturi eligendi!
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
